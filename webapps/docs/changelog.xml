@@ -116,6 +116,10 @@
         <code>SSLHostConfig</code> in storeconfig. (remm)
       </fix>
       <fix>
+        Fix handling of <code>QSA</code> and <code>QSD</code> flags in
+        <code>RewriteValve</code>. (markt)
+      </fix>
+      <fix>
         <bug>69442</bug>: Fix case sensitive check on <code>content-type</code>
         when parsing request parameters. (remm)
       </fix>
